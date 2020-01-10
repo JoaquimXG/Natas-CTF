@@ -1,0 +1,10 @@
+#!/usr/bin/php
+<?php
+$secret="3d3d516343746d4d6d6c315669563362";
+
+$secretencode = base64_decode(strrev(hex2bin($secret)));
+
+
+printf("%s",$secretencode);
+?>
+
